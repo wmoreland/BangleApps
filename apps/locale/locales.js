@@ -20,7 +20,8 @@ const speedUnits = { // how many kph per X?
   "km/t": 1,
   "km/tim": 1,
   "mph": 1.60934,
-  "kts": 1.852
+  "kts": 1.852,
+  "m/s": 3.6
 };
 
 /*
@@ -87,6 +88,21 @@ var locales = {
     abday: "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
     day: "Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday",
     // No translation for english...
+  },
+  "en_IS": {
+	lang: "en_GB",
+    decimal_point: ".",
+    thousands_sep: ",",
+    speed: 'm/s',
+    distance: { "0": "m", "1": "km" },
+    temperature: '°C',
+    ampm: { 0: "am", 1: "pm" },
+    timePattern: { 0: "%HH:%MM:%SS", 1: "%HH:%MM" },
+    datePattern: { 0: "%b %d %Y", 1: "%Y-%m-%d" }, // Feb 28 2020" // "2020-02-28"(short)
+    abmonth: "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec",
+    month: "January,February,March,April,May,June,July,August,September,October,November,December",
+    abday: "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
+    day: "Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday",
   },
   "en_US": {
     lang: "en_US",
