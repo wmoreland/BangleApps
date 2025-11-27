@@ -90,7 +90,7 @@ var locales = {
     // No translation for english...
   },
   "en_IS": {
-	lang: "en_GB",
+	lang: "en_IS",
     decimal_point: ".",
     thousands_sep: ",",
     speed: 'm/s',
